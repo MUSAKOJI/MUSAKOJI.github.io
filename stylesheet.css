@@ -1,3 +1,7 @@
+@media screen and(max-width:480px){
+    
+}
+
 h1{
     color: cadetblue;
 }
@@ -6,11 +10,65 @@ h4{
     color: darkblue;
 }
 
-span{
-    color: red;
+.box1{
+    position: relative;
+    margin: 2em 0;
+    padding: 0.5em 1em;
+    border: solid 3px #95ccff;
+    border-radius: 8px;
+}
+
+.box1 .box-title{
+    position: absolute;
+    display: inline-block;
+    top: -13px;
+    left: 10px;
+    padding: 0 9px;
+    line-height: 1;
     font-size: 25px;
+    background: #FFF;
+    color: #95ccff;
+    font-weight: bold;
+}
+
+.box1 li{
+    margin: 0;
+    padding: 0;
+}
+
+table{
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+    border-spacing: 0;
+    margin-top: 50px;
+}
+
+table th{
+    padding: 10px;
+    background: #778ca3;
+    border: solid 1px #666666;
+    color: #ffffff;
+}
+
+table td{
+    padding: 10px;
+    border: solid 1px #666666;
+}
+
+table td:first-child{
+    background: #e9faf9;
+}
+
+h2{
+    margin-top: 100px;
+    background: linear-gradient(transparent 70%, #5bed3d 0%);
 }
 
 p{
     margin-top: 30px;
+}
+
+span{
+    color: red;
 }
